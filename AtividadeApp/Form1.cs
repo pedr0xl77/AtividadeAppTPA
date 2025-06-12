@@ -63,5 +63,12 @@ namespace AtividadeApp
         {
 
         }
+
+        private void mstiEx6_Click(object sender, EventArgs e)
+        {
+            frmEx6 ex6 = new frmEx6();
+            Hide();
+            ex6.Show();
+        }
     }
 }
