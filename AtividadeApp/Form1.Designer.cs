@@ -35,11 +35,12 @@
             this.mstiEx3 = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiEx4 = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiEx5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mstiEx6 = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblPedro = new System.Windows.Forms.Label();
-            this.mstiEx6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.mstiEx7 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,10 +64,12 @@
             this.mstiEx3,
             this.mstiEx4,
             this.mstiEx5,
-            this.mstiEx6});
+            this.mstiEx6,
+            this.mstiEx7});
             this.celsiusParaFahrenheidToolStripMenuItem.Name = "celsiusParaFahrenheidToolStripMenuItem";
             this.celsiusParaFahrenheidToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.celsiusParaFahrenheidToolStripMenuItem.Text = "Exercícios";
+            this.celsiusParaFahrenheidToolStripMenuItem.Click += new System.EventHandler(this.celsiusParaFahrenheidToolStripMenuItem_Click);
             // 
             // mstiEx1
             // 
@@ -102,6 +105,13 @@
             this.mstiEx5.Size = new System.Drawing.Size(180, 22);
             this.mstiEx5.Text = "Exercício 5";
             this.mstiEx5.Click += new System.EventHandler(this.mstiEx5_Click);
+            // 
+            // mstiEx6
+            // 
+            this.mstiEx6.Name = "mstiEx6";
+            this.mstiEx6.Size = new System.Drawing.Size(180, 22);
+            this.mstiEx6.Text = "Exercício 6";
+            this.mstiEx6.Click += new System.EventHandler(this.mstiEx6_Click);
             // 
             // mstiSair
             // 
@@ -140,12 +150,12 @@
             this.lblPedro.TabIndex = 3;
             this.lblPedro.Text = "Pedro Santaella";
             // 
-            // mstiEx6
+            // mstiEx7
             // 
-            this.mstiEx6.Name = "mstiEx6";
-            this.mstiEx6.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx6.Text = "Exercício 6";
-            this.mstiEx6.Click += new System.EventHandler(this.mstiEx6_Click);
+            this.mstiEx7.Name = "mstiEx7";
+            this.mstiEx7.Size = new System.Drawing.Size(180, 22);
+            this.mstiEx7.Text = "Exercício 7";
+            this.mstiEx7.Click += new System.EventHandler(this.mstiEx7_Click);
             // 
             // frmMenu
             // 
@@ -183,6 +193,7 @@
         private System.Windows.Forms.Label lblLucas;
         private System.Windows.Forms.Label lblPedro;
         private System.Windows.Forms.ToolStripMenuItem mstiEx6;
+        private System.Windows.Forms.ToolStripMenuItem mstiEx7;
     }
 }
 
