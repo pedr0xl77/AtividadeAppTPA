@@ -29,18 +29,21 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.celsiusParaFahrenheidToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiEx6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.exerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio7ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblPedro = new System.Windows.Forms.Label();
-            this.mstiEx7 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +51,7 @@
             // 
             this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.celsiusParaFahrenheidToolStripMenuItem,
+            this.exerciciosToolStripMenuItem,
             this.mstiSair});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -56,62 +59,92 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // celsiusParaFahrenheidToolStripMenuItem
+            // exerciciosToolStripMenuItem
             // 
-            this.celsiusParaFahrenheidToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mstiEx1,
-            this.mstiEx2,
-            this.mstiEx3,
-            this.mstiEx4,
-            this.mstiEx5,
-            this.mstiEx6,
-            this.mstiEx7});
-            this.celsiusParaFahrenheidToolStripMenuItem.Name = "celsiusParaFahrenheidToolStripMenuItem";
-            this.celsiusParaFahrenheidToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.celsiusParaFahrenheidToolStripMenuItem.Text = "Exercícios";
-            this.celsiusParaFahrenheidToolStripMenuItem.Click += new System.EventHandler(this.celsiusParaFahrenheidToolStripMenuItem_Click);
+            this.exerciciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exercicio1ToolStripMenuItem,
+            this.exercicio2ToolStripMenuItem,
+            this.exercicio3ToolStripMenuItem,
+            this.exercicio4ToolStripMenuItem,
+            this.exercicio5ToolStripMenuItem,
+            this.exercicio6ToolStripMenuItem,
+            this.exercicio7ToolStripMenuItem,
+            this.exercicio8ToolStripMenuItem,
+            this.exercicio9ToolStripMenuItem,
+            this.exercicio10ToolStripMenuItem});
+            this.exerciciosToolStripMenuItem.Name = "exerciciosToolStripMenuItem";
+            this.exerciciosToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.exerciciosToolStripMenuItem.Text = "Exercicios";
             // 
-            // mstiEx1
+            // exercicio1ToolStripMenuItem
             // 
-            this.mstiEx1.Name = "mstiEx1";
-            this.mstiEx1.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx1.Text = "Exercício 1";
-            this.mstiEx1.Click += new System.EventHandler(this.mstiEx1_Click);
+            this.exercicio1ToolStripMenuItem.Name = "exercicio1ToolStripMenuItem";
+            this.exercicio1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio1ToolStripMenuItem.Text = "Exercicio1";
+            this.exercicio1ToolStripMenuItem.Click += new System.EventHandler(this.exercicio1ToolStripMenuItem_Click);
             // 
-            // mstiEx2
+            // exercicio2ToolStripMenuItem
             // 
-            this.mstiEx2.Name = "mstiEx2";
-            this.mstiEx2.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx2.Text = "Exercício 2";
-            this.mstiEx2.Click += new System.EventHandler(this.mstiEx2_Click);
+            this.exercicio2ToolStripMenuItem.Name = "exercicio2ToolStripMenuItem";
+            this.exercicio2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio2ToolStripMenuItem.Text = "Exercicio2";
+            this.exercicio2ToolStripMenuItem.Click += new System.EventHandler(this.exercicio2ToolStripMenuItem_Click);
             // 
-            // mstiEx3
+            // exercicio3ToolStripMenuItem
             // 
-            this.mstiEx3.Name = "mstiEx3";
-            this.mstiEx3.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx3.Text = "Exercício 3";
-            this.mstiEx3.Click += new System.EventHandler(this.mstiEx3_Click);
+            this.exercicio3ToolStripMenuItem.Name = "exercicio3ToolStripMenuItem";
+            this.exercicio3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio3ToolStripMenuItem.Text = "Exercicio 3";
+            this.exercicio3ToolStripMenuItem.Click += new System.EventHandler(this.exercicio3ToolStripMenuItem_Click);
             // 
-            // mstiEx4
+            // exercicio4ToolStripMenuItem
             // 
-            this.mstiEx4.Name = "mstiEx4";
-            this.mstiEx4.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx4.Text = "Exercício 4";
-            this.mstiEx4.Click += new System.EventHandler(this.mstiEx4_Click);
+            this.exercicio4ToolStripMenuItem.Name = "exercicio4ToolStripMenuItem";
+            this.exercicio4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio4ToolStripMenuItem.Text = "Exercicio 4";
+            this.exercicio4ToolStripMenuItem.Click += new System.EventHandler(this.exercicio4ToolStripMenuItem_Click);
             // 
-            // mstiEx5
+            // exercicio5ToolStripMenuItem
             // 
-            this.mstiEx5.Name = "mstiEx5";
-            this.mstiEx5.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx5.Text = "Exercício 5";
-            this.mstiEx5.Click += new System.EventHandler(this.mstiEx5_Click);
+            this.exercicio5ToolStripMenuItem.Name = "exercicio5ToolStripMenuItem";
+            this.exercicio5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio5ToolStripMenuItem.Text = "Exercicio 5";
+            this.exercicio5ToolStripMenuItem.Click += new System.EventHandler(this.exercicio5ToolStripMenuItem_Click);
             // 
-            // mstiEx6
+            // exercicio6ToolStripMenuItem
             // 
-            this.mstiEx6.Name = "mstiEx6";
-            this.mstiEx6.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx6.Text = "Exercício 6";
-            this.mstiEx6.Click += new System.EventHandler(this.mstiEx6_Click);
+            this.exercicio6ToolStripMenuItem.Name = "exercicio6ToolStripMenuItem";
+            this.exercicio6ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio6ToolStripMenuItem.Text = "Exercicio6";
+            this.exercicio6ToolStripMenuItem.Click += new System.EventHandler(this.exercicio6ToolStripMenuItem_Click);
+            // 
+            // exercicio7ToolStripMenuItem
+            // 
+            this.exercicio7ToolStripMenuItem.Name = "exercicio7ToolStripMenuItem";
+            this.exercicio7ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio7ToolStripMenuItem.Text = "Exercicio7";
+            this.exercicio7ToolStripMenuItem.Click += new System.EventHandler(this.exercicio7ToolStripMenuItem_Click);
+            // 
+            // exercicio8ToolStripMenuItem
+            // 
+            this.exercicio8ToolStripMenuItem.Name = "exercicio8ToolStripMenuItem";
+            this.exercicio8ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio8ToolStripMenuItem.Text = "Exercicio8";
+            this.exercicio8ToolStripMenuItem.Click += new System.EventHandler(this.exercicio8ToolStripMenuItem_Click);
+            // 
+            // exercicio9ToolStripMenuItem
+            // 
+            this.exercicio9ToolStripMenuItem.Name = "exercicio9ToolStripMenuItem";
+            this.exercicio9ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio9ToolStripMenuItem.Text = "Exercicio9";
+            this.exercicio9ToolStripMenuItem.Click += new System.EventHandler(this.exercicio9ToolStripMenuItem_Click);
+            // 
+            // exercicio10ToolStripMenuItem
+            // 
+            this.exercicio10ToolStripMenuItem.Name = "exercicio10ToolStripMenuItem";
+            this.exercicio10ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio10ToolStripMenuItem.Text = "Exercicio10";
+            this.exercicio10ToolStripMenuItem.Click += new System.EventHandler(this.exercicio10ToolStripMenuItem_Click);
             // 
             // mstiSair
             // 
@@ -136,9 +169,9 @@
             this.lblLucas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLucas.Location = new System.Drawing.Point(23, 328);
             this.lblLucas.Name = "lblLucas";
-            this.lblLucas.Size = new System.Drawing.Size(176, 20);
+            this.lblLucas.Size = new System.Drawing.Size(104, 20);
             this.lblLucas.TabIndex = 2;
-            this.lblLucas.Text = "Lucas de Comi Côrte";
+            this.lblLucas.Text = "Pedro Doria";
             // 
             // lblPedro
             // 
@@ -149,13 +182,6 @@
             this.lblPedro.Size = new System.Drawing.Size(137, 20);
             this.lblPedro.TabIndex = 3;
             this.lblPedro.Text = "Pedro Santaella";
-            // 
-            // mstiEx7
-            // 
-            this.mstiEx7.Name = "mstiEx7";
-            this.mstiEx7.Size = new System.Drawing.Size(180, 22);
-            this.mstiEx7.Text = "Exercício 7";
-            this.mstiEx7.Click += new System.EventHandler(this.mstiEx7_Click);
             // 
             // frmMenu
             // 
@@ -182,18 +208,21 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem celsiusParaFahrenheidToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx1;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx2;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx3;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx4;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx5;
         private System.Windows.Forms.ToolStripMenuItem mstiSair;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblLucas;
         private System.Windows.Forms.Label lblPedro;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx6;
-        private System.Windows.Forms.ToolStripMenuItem mstiEx7;
+        private System.Windows.Forms.ToolStripMenuItem exerciciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio6ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio7ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio9ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio10ToolStripMenuItem;
     }
 }
 

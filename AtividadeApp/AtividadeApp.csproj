@@ -59,6 +59,12 @@
     <Compile Include="Ex1.Designer.cs">
       <DependentUpon>Ex1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex10.Designer.cs">
+      <DependentUpon>Ex10.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,18 @@
     <Compile Include="Ex7.Designer.cs">
       <DependentUpon>Ex7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex8.Designer.cs">
+      <DependentUpon>Ex8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex9.Designer.cs">
+      <DependentUpon>Ex9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +124,9 @@
     <EmbeddedResource Include="Ex1.resx">
       <DependentUpon>Ex1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ex10.resx">
+      <DependentUpon>Ex10.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ex3.resx">
       <DependentUpon>Ex3.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +141,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ex7.resx">
       <DependentUpon>Ex7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex8.resx">
+      <DependentUpon>Ex8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex9.resx">
+      <DependentUpon>Ex9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
