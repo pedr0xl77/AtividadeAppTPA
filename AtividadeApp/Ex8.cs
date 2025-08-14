@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media;
 
 namespace AtividadeApp
 {
@@ -17,67 +18,46 @@ namespace AtividadeApp
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCalcular_Click(object sender, EventArgs e)
-        {
-           double popular, geral, arquibancada, cadeira, pubtotal
-           string tipoing
-
-
-
-           pubtotal = Convert.ToDouble(txtPubtotal.Text);
-           
-            
-        }
-
-        private void btnPopular_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCalcular_Click_1(object sender, EventArgs e)
         {
-            double pubtotal, popular, arquibancada, cadeira, geral;
-            string tipoing;
+            double popular, geral, arquibancada, cadeiras, totpubl, rdp, rda, rdc, rdg, rendatot;
 
+                totpubl = Convert.ToDouble(txtPubtotal.Text);
 
-            pubtotal = Convert.ToDouble(txtPubtotal.Text);
-            tipoing = txtTipoing.Text;
+            popular = totpubl * 0.10;
+            geral = totpubl * 0.50;
+            arquibancada = totpubl * 0.30;
+            cadeiras = totpubl * 0.10;
 
-            if (tipoing == "1") ;
+            if (popular > 0)
             {
-                popular = (pubtotal * 0.10) * 5;
-                txtResultado.Text = popular.ToString();
+                rdp = popular * 5;
             }
 
-            if (tipoing == "2")
+            if (geral > 0)
             {
-                geral = (pubtotal * 0.50) * 10;
-                txtResultado.Text = geral.ToString();
+                rdg = popular * 10;
             }
 
-            if (tipoing == "3")
+            if(arquibancada > 0)
             {
-                arquibancada = (pubtotal * 0.30) * 20;
-                txtResultado.Text = arquibancada.ToString();
+                rda = popular * 20;
             }
 
-            if (tipoing == "4")
+            if (cadeiras > 0)
             {
-                cadeira = (pubtotal * 0.10) * 30;
-                txtResultado.Text = cadeira.ToString();
+                rdc = popular * 30;
             }
+
+            rendatot = rdp + rdg + rda + rdc;
+
+            txtResultado.Text = rendatot.ToString();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtPubtotal.Clear();
             txtResultado.Clear();
-            txtTipoing.Clear();
             txtPubtotal.Focus();
         }
 
