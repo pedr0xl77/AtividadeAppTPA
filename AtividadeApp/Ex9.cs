@@ -19,9 +19,9 @@ namespace AtividadeApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double livro,valor
-                
-            livro = Convert.ToDouble(txtLivro.Text)
+            double livro, valor;
+
+            livro = Convert.ToDouble(txtLivro.Text);
             if (livro > 10 )
             {
                 valor = livro * 8;

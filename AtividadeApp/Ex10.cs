@@ -47,7 +47,7 @@ namespace AtividadeApp
                     valor = salario + 150;
             }
 
-            txtFala.Text = (nome + "voce tem" + idade.ToString() + "anos e recebe" + valor.ToString() + "reais");          
+            txtFala.Text = (nome + "voce tem " + idade.ToString() + " anos e recebe " + valor.ToString() + " reais");          
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace AtividadeApp
 
         private void button3_Click(object sender, EventArgs e)
         {
-            frmMenu menu = new frmMenu;
+            frmMenu menu = new frmMenu();
             Hide();
             menu.Show();
         }
