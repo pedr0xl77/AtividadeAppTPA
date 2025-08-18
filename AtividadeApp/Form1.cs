@@ -100,6 +100,14 @@ namespace AtividadeApp
             Hide();
             ex10.Show();
         }
+
+        private void exercicio11ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Ex11 ex11 = new Ex11();
+            ex11.Show();
+            
+        }
     }
 
 

@@ -44,6 +44,7 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblPedro = new System.Windows.Forms.Label();
+            this.exercicio11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,7 +72,8 @@
             this.exercicio7ToolStripMenuItem,
             this.exercicio8ToolStripMenuItem,
             this.exercicio9ToolStripMenuItem,
-            this.exercicio10ToolStripMenuItem});
+            this.exercicio10ToolStripMenuItem,
+            this.exercicio11ToolStripMenuItem});
             this.exerciciosToolStripMenuItem.Name = "exerciciosToolStripMenuItem";
             this.exerciciosToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.exerciciosToolStripMenuItem.Text = "Exercicios";
@@ -183,6 +185,13 @@
             this.lblPedro.TabIndex = 3;
             this.lblPedro.Text = "Pedro Santaella";
             // 
+            // exercicio11ToolStripMenuItem
+            // 
+            this.exercicio11ToolStripMenuItem.Name = "exercicio11ToolStripMenuItem";
+            this.exercicio11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio11ToolStripMenuItem.Text = "Exercicio 11";
+            this.exercicio11ToolStripMenuItem.Click += new System.EventHandler(this.exercicio11ToolStripMenuItem_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,6 +232,7 @@
         private System.Windows.Forms.ToolStripMenuItem exercicio8ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio9ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio10ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio11ToolStripMenuItem;
     }
 }
 
