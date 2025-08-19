@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,66 +11,56 @@ using System.Windows.Forms;
 
 namespace AtividadeApp
 {
-    public partial class frmEx10 : Form
+    public partial class Ex10: Form
     {
-        public frmEx10()
+        public Ex10()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnCalcular_Click(object sender, EventArgs e)
-        {
-            double salario, valor, idade;
-            string nome,sexo;
-
-            nome = txtNome.Text;
-            sexo = txtSexo.Text;
-            idade = Convert.ToDouble(txtIdade.Text);
-            salario = Convert.ToDouble(txtSalario.Text);
-
-            if (sexo == "m" || sexo == "masculino" || sexo == "Masculino") 
-            {
-                if (idade > 30) 
-                    valor = salario + 100;
-                else
-                    valor = salario + 50;
-            }
-            else
-            {
-                if (idade > 30)
-                    valor = salario + 250;
-                else
-                    valor = salario + 150;
-            }
-
-            txtFala.Text = (nome + " voce tem " + idade.ToString() + " anos e recebe " + valor.ToString() + " reais");          
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            txtFala.Clear();
-            txtIdade.Clear();
-            txtNome.Clear();
-            txtSalario.Clear();
-            txtSexo.Clear();
-            txtNome.Focus();
-        }
+            Double peso, altura, imc;
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            frmMenu menu = new frmMenu();
-            Hide();
-            menu.Show();
-        }
+            peso = Convert.ToDouble(txtPeso.Text);
+            altura = Convert.ToDouble(txtAltura.Text);
+
+            imc = peso/(altura*altura);
+
+
+            if (imc < 17)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com magreza severa");
+            }
+            else
+                if (imc >= 17 && imc < 18.5)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com magreza leve");
+            }
+            else
+                if (imc >= 18.5 && imc < 25)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com o peso normal");
+            }
+            else
+                if (imc >= 25 && imc < 30)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com sobrepeso ");
+            }
+            else
+                if (imc >= 30 && imc < 35)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 1");
+            }
+            else
+                if (imc >= 35 && imc < 40)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 2");
+            }
+            else
+                if (imc >= 40)
+            {
+                txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 3");
+            }
     }
 }
