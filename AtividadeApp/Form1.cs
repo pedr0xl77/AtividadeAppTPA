@@ -104,7 +104,7 @@ namespace AtividadeApp
         private void exercicio11ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hide();
-            Ex11 ex11 = new Ex11();
+            frmEx11 ex11 = new frmEx11();
             ex11.Show();
             
         }

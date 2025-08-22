@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace AtividadeApp
 {
-    public partial class Ex10: Form
+    public partial class frmEx10: Form
     {
-        public Ex10()
+        public frmEx10()
         {
             InitializeComponent();
         }

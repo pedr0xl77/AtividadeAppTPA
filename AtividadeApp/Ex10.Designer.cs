@@ -1,6 +1,6 @@
 ﻿namespace AtividadeApp
 {
-    partial class Ex10
+    partial class frmEx10
     {
         /// <summary>
         /// Required designer variable.
@@ -114,7 +114,7 @@
             this.txtResposta.Size = new System.Drawing.Size(611, 29);
             this.txtResposta.TabIndex = 7;
             // 
-            // Ex10
+            // frmEx10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -127,7 +127,7 @@
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Ex10";
+            this.Name = "frmEx10";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ex10";
             this.ResumeLayout(false);
