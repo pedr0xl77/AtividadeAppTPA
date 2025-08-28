@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace AtividadeApp
 {
-    public partial class frmEx10: Form
+    public partial class frmEx10 : Form
     {
         public frmEx10()
         {
@@ -25,7 +25,7 @@ namespace AtividadeApp
             peso = Convert.ToDouble(txtPeso.Text);
             altura = Convert.ToDouble(txtAltura.Text);
 
-            imc = peso/(altura*altura);
+            imc = peso / (altura * altura);
 
 
             if (imc < 17)
@@ -62,5 +62,6 @@ namespace AtividadeApp
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 3");
             }
+        }
     }
 }

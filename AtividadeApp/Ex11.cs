@@ -41,7 +41,7 @@ namespace AtividadeApp
                     txtResposta.Text = frase;
                 break;
 
-                case 102:
+                case 103:
                     frase = "voce pediu o Triple X-Burguer $47 a unidade";
                     txtResposta.Text = frase;
                 break;
