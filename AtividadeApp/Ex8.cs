@@ -20,7 +20,7 @@ namespace AtividadeApp
 
         private void btnCalcular_Click_1(object sender, EventArgs e)
         {
-            double popular, geral, arquibancada, cadeiras, totpubl, rdp = 0, rda = 0, rdc = 0, rdg = 0, rendatot;
+              double popular, geral, arquibancada, cadeiras, totpubl, rdp = 0, rda = 0, rdc = 0, rdg = 0, rendatot;
 
                 totpubl = Convert.ToDouble(txtPubtotal.Text);
 
@@ -36,17 +36,17 @@ namespace AtividadeApp
 
             if (geral > 0)
             {
-                rdg = popular * 10;
+                rdg = geral * 10;
             }
 
             if(arquibancada > 0)
             {
-                rda = popular * 20;
+                rda = arquibancada * 20;
             }
 
             if (cadeiras > 0)
             {
-                rdc = popular * 30;
+                rdc = cadeiras * 30;
 
             }
             rendatot = rdp + rdg + rda + rdc;

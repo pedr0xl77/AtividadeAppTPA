@@ -157,7 +157,7 @@
             this.Controls.Add(this.btnCalcular);
             this.Name = "frmEx11";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ex11";
+            this.Text = "--";
             this.ResumeLayout(false);
             this.PerformLayout();
 
