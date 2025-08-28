@@ -46,7 +46,7 @@ namespace AtividadeApp
 
             if (cadeiras > 0)
             {
-                rdc = cadeiras * 30;
+                rdc = popular * 30;
 
             }
             rendatot = rdp + rdg + rda + rdc;
