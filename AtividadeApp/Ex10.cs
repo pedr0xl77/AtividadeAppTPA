@@ -63,5 +63,20 @@ namespace AtividadeApp
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 3");
             }
         }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtPeso.Clear();
+            txtAltura.Clear();
+            txtResposta.Clear();
+            txtPeso.Focus();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmMenu menu = new frmMenu();
+            menu.Show();
+        }
     }
 }

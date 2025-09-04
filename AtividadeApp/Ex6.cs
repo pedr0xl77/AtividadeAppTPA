@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,22 +25,40 @@ namespace AtividadeApp
 
         private void btnCalc_Click(object sender, EventArgs e)
         {
-            double nota1, nota2, nota3, media;
+            string nome, sexo;
+            int idade, salario, result = 0;
 
-            nota1 = Convert.ToDouble(txtNota1.Text);
-            nota2 = Convert.ToDouble(txtNota2.Text);
-            nota3 = Convert.ToDouble(txtNota3.Text);
-            media = ((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10;
-            txtMedia.Text = media.ToString();
+            nome = txtNome.Text;
+            sexo = txtSexo.Text;
+            idade = int.Parse(txtIdade.Text);
+            salario = int.Parse(txtSalario.Text);
+
+            if (sexo == "m" || sexo == "Masculino" || sexo == "masculino") 
+            {
+                if (idade >= 30) 
+                    result = salario + 100;
+                else
+                    result = salario + 50;
+            }
+            else
+            {
+                if (idade >= 30)
+                    result = salario + 250;
+                else
+                    result = salario + 150;
+            }
+
+            txtResposta.Text = "Ola " + nome +" seu salario atualizado é " + result.ToString();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
-            txtNota1.Clear();
-            txtNota2.Clear();
-            txtNota3.Clear();
-            txtMedia.Clear();
-            txtNota1.Focus();
+            txtNome.Clear();
+            txtIdade.Clear();
+            txtSexo.Clear();
+            txtSalario.Clear();
+            txtResposta.Clear();
+            txtNome.Focus();
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)
