@@ -58,6 +58,7 @@ namespace AtividadeApp
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 2");
             }
             
+        
             if (imc >= 40)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 3");
