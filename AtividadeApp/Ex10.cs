@@ -32,33 +32,33 @@ namespace AtividadeApp
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com magreza severa");
             }
-            else
-                if (imc >= 17 && imc < 18.5)
+            
+            if (imc >= 17 && imc < 18.5)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com magreza leve");
             }
-            else
-                if (imc >= 18.5 && imc < 25)
+            
+            if (imc >= 18.5 && imc < 25)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com o peso normal");
             }
-            else
-                if (imc >= 25 && imc < 30)
+            
+            if (imc >= 25 && imc < 30)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com sobrepeso ");
             }
-            else
-                if (imc >= 30 && imc < 35)
+            
+            if (imc >= 30 && imc < 35)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 1");
             }
-            else
-                if (imc >= 35 && imc < 40)
+            
+            if (imc >= 35 && imc < 40)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 2");
             }
-            else
-                if (imc >= 40)
+            
+            if (imc >= 40)
             {
                 txtResposta.Text = ("seu IMC é: " + imc.ToString() + " voce esta com obesidade classe 3");
             }

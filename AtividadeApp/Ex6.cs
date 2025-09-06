@@ -26,12 +26,12 @@ namespace AtividadeApp
         private void btnCalc_Click(object sender, EventArgs e)
         {
             string nome, sexo;
-            int idade, salario, result = 0;
+            int idade, salario, result;
 
             nome = txtNome.Text;
             sexo = txtSexo.Text;
-            idade = int.Parse(txtIdade.Text);
-            salario = int.Parse(txtSalario.Text);
+            idade = Convert.ToInt32(txtIdade.Text);
+            salario = Convert.ToInt32(txtSalario.Text);
 
             if (sexo == "m" || sexo == "Masculino" || sexo == "masculino") 
             {
