@@ -108,6 +108,18 @@ namespace AtividadeApp
             ex11.Show();
             
         }
+
+        private void prova3BimestreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ex1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmProvaEx1 ProvaEx1 = new frmProvaEx1();
+            ProvaEx1.Show();
+        }
     }
 
 

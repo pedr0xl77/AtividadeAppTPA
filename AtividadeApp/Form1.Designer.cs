@@ -40,11 +40,14 @@
             this.exercicio8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicio9ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicio10ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblLucas = new System.Windows.Forms.Label();
             this.lblPedro = new System.Windows.Forms.Label();
-            this.exercicio11ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prova3BimestreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ex1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ex2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,7 +76,8 @@
             this.exercicio8ToolStripMenuItem,
             this.exercicio9ToolStripMenuItem,
             this.exercicio10ToolStripMenuItem,
-            this.exercicio11ToolStripMenuItem});
+            this.exercicio11ToolStripMenuItem,
+            this.prova3BimestreToolStripMenuItem});
             this.exerciciosToolStripMenuItem.Name = "exerciciosToolStripMenuItem";
             this.exerciciosToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.exerciciosToolStripMenuItem.Text = "Exercicios";
@@ -148,6 +152,13 @@
             this.exercicio10ToolStripMenuItem.Text = "Exercicio10";
             this.exercicio10ToolStripMenuItem.Click += new System.EventHandler(this.exercicio10ToolStripMenuItem_Click);
             // 
+            // exercicio11ToolStripMenuItem
+            // 
+            this.exercicio11ToolStripMenuItem.Name = "exercicio11ToolStripMenuItem";
+            this.exercicio11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio11ToolStripMenuItem.Text = "Exercicio 11";
+            this.exercicio11ToolStripMenuItem.Click += new System.EventHandler(this.exercicio11ToolStripMenuItem_Click);
+            // 
             // mstiSair
             // 
             this.mstiSair.Name = "mstiSair";
@@ -185,12 +196,28 @@
             this.lblPedro.TabIndex = 3;
             this.lblPedro.Text = "Pedro Santaella";
             // 
-            // exercicio11ToolStripMenuItem
+            // prova3BimestreToolStripMenuItem
             // 
-            this.exercicio11ToolStripMenuItem.Name = "exercicio11ToolStripMenuItem";
-            this.exercicio11ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exercicio11ToolStripMenuItem.Text = "Exercicio 11";
-            this.exercicio11ToolStripMenuItem.Click += new System.EventHandler(this.exercicio11ToolStripMenuItem_Click);
+            this.prova3BimestreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ex1ToolStripMenuItem,
+            this.ex2ToolStripMenuItem});
+            this.prova3BimestreToolStripMenuItem.Name = "prova3BimestreToolStripMenuItem";
+            this.prova3BimestreToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.prova3BimestreToolStripMenuItem.Text = "Prova 3° Bimestre 2025";
+            this.prova3BimestreToolStripMenuItem.Click += new System.EventHandler(this.prova3BimestreToolStripMenuItem_Click);
+            // 
+            // ex1ToolStripMenuItem
+            // 
+            this.ex1ToolStripMenuItem.Name = "ex1ToolStripMenuItem";
+            this.ex1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ex1ToolStripMenuItem.Text = "Ex1";
+            this.ex1ToolStripMenuItem.Click += new System.EventHandler(this.ex1ToolStripMenuItem_Click);
+            // 
+            // ex2ToolStripMenuItem
+            // 
+            this.ex2ToolStripMenuItem.Name = "ex2ToolStripMenuItem";
+            this.ex2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ex2ToolStripMenuItem.Text = "Ex2";
             // 
             // frmMenu
             // 
@@ -233,6 +260,9 @@
         private System.Windows.Forms.ToolStripMenuItem exercicio9ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio10ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio11ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prova3BimestreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ex1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ex2ToolStripMenuItem;
     }
 }
 
