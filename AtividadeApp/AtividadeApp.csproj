@@ -71,11 +71,29 @@
     <Compile Include="Ex11.Designer.cs">
       <DependentUpon>Ex11.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ex1Bim4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex1Bim4.Designer.cs">
+      <DependentUpon>Ex1Bim4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex2Bim4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex2Bim4.Designer.cs">
+      <DependentUpon>Ex2Bim4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ex3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ex3.Designer.cs">
       <DependentUpon>Ex3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ex3BIm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ex3BIm4.Designer.cs">
+      <DependentUpon>Ex3BIm4.cs</DependentUpon>
     </Compile>
     <Compile Include="Ex4.cs">
       <SubType>Form</SubType>
@@ -147,6 +165,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ex11.resx">
       <DependentUpon>Ex11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex1Bim4.resx">
+      <DependentUpon>Ex1Bim4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ex2Bim4.resx">
+      <DependentUpon>Ex2Bim4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ex3.resx">
       <DependentUpon>Ex3.cs</DependentUpon>

@@ -120,6 +120,20 @@ namespace AtividadeApp
             frmProvaEx1 ProvaEx1 = new frmProvaEx1();
             ProvaEx1.Show();
         }
+
+        private void eX1ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx1Bim4 ex1 = new frmEx1Bim4();
+            ex1.Show();
+        }
+
+        private void eX2ToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx2Bim4 ex2 = new frmEx2Bim4();
+            ex2.Show();
+        }
     }
 
 

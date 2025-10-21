@@ -25,7 +25,7 @@ namespace AtividadeApp
             valor = Convert.ToDouble(txtValor.Text);
             codigo = Convert.ToInt32(txtCodigo.Text);
 
-            switch(codigo) 
+            switch (codigo)  {}
         }
     }
 }
