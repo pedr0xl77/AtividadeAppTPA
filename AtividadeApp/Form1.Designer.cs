@@ -44,14 +44,17 @@
             this.prova3BimestreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ex1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ex2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblLucas = new System.Windows.Forms.Label();
-            this.lblPedro = new System.Windows.Forms.Label();
             this.bIMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eX1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.eX2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.eX3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ex4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ex5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ex6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mstiSair = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblLucas = new System.Windows.Forms.Label();
+            this.lblPedro = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -187,6 +190,61 @@
             this.ex2ToolStripMenuItem.Size = new System.Drawing.Size(95, 22);
             this.ex2ToolStripMenuItem.Text = "Ex2";
             // 
+            // bIMToolStripMenuItem
+            // 
+            this.bIMToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eX1ToolStripMenuItem1,
+            this.eX2ToolStripMenuItem1,
+            this.eX3ToolStripMenuItem,
+            this.ex4ToolStripMenuItem,
+            this.ex5ToolStripMenuItem,
+            this.ex6ToolStripMenuItem});
+            this.bIMToolStripMenuItem.Name = "bIMToolStripMenuItem";
+            this.bIMToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.bIMToolStripMenuItem.Text = "4°BIM";
+            // 
+            // eX1ToolStripMenuItem1
+            // 
+            this.eX1ToolStripMenuItem1.Name = "eX1ToolStripMenuItem1";
+            this.eX1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.eX1ToolStripMenuItem1.Text = "EX1";
+            this.eX1ToolStripMenuItem1.Click += new System.EventHandler(this.eX1ToolStripMenuItem1_Click);
+            // 
+            // eX2ToolStripMenuItem1
+            // 
+            this.eX2ToolStripMenuItem1.Name = "eX2ToolStripMenuItem1";
+            this.eX2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.eX2ToolStripMenuItem1.Text = "EX2";
+            this.eX2ToolStripMenuItem1.Click += new System.EventHandler(this.eX2ToolStripMenuItem1_Click);
+            // 
+            // eX3ToolStripMenuItem
+            // 
+            this.eX3ToolStripMenuItem.Name = "eX3ToolStripMenuItem";
+            this.eX3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eX3ToolStripMenuItem.Text = "EX3";
+            this.eX3ToolStripMenuItem.Click += new System.EventHandler(this.eX3ToolStripMenuItem_Click);
+            // 
+            // ex4ToolStripMenuItem
+            // 
+            this.ex4ToolStripMenuItem.Name = "ex4ToolStripMenuItem";
+            this.ex4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ex4ToolStripMenuItem.Text = "Ex4";
+            this.ex4ToolStripMenuItem.Click += new System.EventHandler(this.ex4ToolStripMenuItem_Click);
+            // 
+            // ex5ToolStripMenuItem
+            // 
+            this.ex5ToolStripMenuItem.Name = "ex5ToolStripMenuItem";
+            this.ex5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ex5ToolStripMenuItem.Text = "Ex5";
+            this.ex5ToolStripMenuItem.Click += new System.EventHandler(this.ex5ToolStripMenuItem_Click);
+            // 
+            // ex6ToolStripMenuItem
+            // 
+            this.ex6ToolStripMenuItem.Name = "ex6ToolStripMenuItem";
+            this.ex6ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ex6ToolStripMenuItem.Text = "Ex6";
+            this.ex6ToolStripMenuItem.Click += new System.EventHandler(this.ex6ToolStripMenuItem_Click);
+            // 
             // mstiSair
             // 
             this.mstiSair.Name = "mstiSair";
@@ -223,36 +281,6 @@
             this.lblPedro.Size = new System.Drawing.Size(137, 20);
             this.lblPedro.TabIndex = 3;
             this.lblPedro.Text = "Pedro Santaella";
-            // 
-            // bIMToolStripMenuItem
-            // 
-            this.bIMToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eX1ToolStripMenuItem1,
-            this.eX2ToolStripMenuItem1,
-            this.eX3ToolStripMenuItem});
-            this.bIMToolStripMenuItem.Name = "bIMToolStripMenuItem";
-            this.bIMToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.bIMToolStripMenuItem.Text = "4°BIM";
-            // 
-            // eX1ToolStripMenuItem1
-            // 
-            this.eX1ToolStripMenuItem1.Name = "eX1ToolStripMenuItem1";
-            this.eX1ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.eX1ToolStripMenuItem1.Text = "EX1";
-            this.eX1ToolStripMenuItem1.Click += new System.EventHandler(this.eX1ToolStripMenuItem1_Click);
-            // 
-            // eX2ToolStripMenuItem1
-            // 
-            this.eX2ToolStripMenuItem1.Name = "eX2ToolStripMenuItem1";
-            this.eX2ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.eX2ToolStripMenuItem1.Text = "EX2";
-            this.eX2ToolStripMenuItem1.Click += new System.EventHandler(this.eX2ToolStripMenuItem1_Click);
-            // 
-            // eX3ToolStripMenuItem
-            // 
-            this.eX3ToolStripMenuItem.Name = "eX3ToolStripMenuItem";
-            this.eX3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eX3ToolStripMenuItem.Text = "EX3";
             // 
             // frmMenu
             // 
@@ -302,6 +330,9 @@
         private System.Windows.Forms.ToolStripMenuItem eX1ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem eX2ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem eX3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ex4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ex5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ex6ToolStripMenuItem;
     }
 }
 

@@ -1,6 +1,6 @@
 ﻿namespace AtividadeApp
 {
-    partial class frmEx3BIm4
+    partial class frmEx5BBim4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,25 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnCalcular = new System.Windows.Forms.Button();
-            this.txtLargura = new System.Windows.Forms.TextBox();
-            this.txtComprimento = new System.Windows.Forms.TextBox();
+            this.txtResposta = new System.Windows.Forms.TextBox();
+            this.txtNumeros = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtComodo = new System.Windows.Forms.TextBox();
-            this.lblComodo = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // statusStrip1
-            // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
-            this.statusStrip1.TabIndex = 0;
-            this.statusStrip1.Text = "statusStrip1";
             // 
             // btnVoltar
             // 
@@ -54,9 +43,10 @@
             this.btnVoltar.Location = new System.Drawing.Point(611, 366);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(107, 36);
-            this.btnVoltar.TabIndex = 26;
+            this.btnVoltar.TabIndex = 13;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
@@ -64,7 +54,7 @@
             this.btnLimpar.Location = new System.Drawing.Point(351, 366);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(107, 36);
-            this.btnLimpar.TabIndex = 25;
+            this.btnLimpar.TabIndex = 12;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
             this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
@@ -75,26 +65,27 @@
             this.btnCalcular.Location = new System.Drawing.Point(83, 366);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(107, 36);
-            this.btnCalcular.TabIndex = 24;
+            this.btnCalcular.TabIndex = 11;
             this.btnCalcular.Text = "Adicionar";
             this.btnCalcular.UseVisualStyleBackColor = true;
             this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
-            // txtLargura
+            // txtResposta
             // 
-            this.txtLargura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLargura.Location = new System.Drawing.Point(362, 136);
-            this.txtLargura.Name = "txtLargura";
-            this.txtLargura.Size = new System.Drawing.Size(253, 29);
-            this.txtLargura.TabIndex = 23;
+            this.txtResposta.Enabled = false;
+            this.txtResposta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtResposta.Location = new System.Drawing.Point(362, 136);
+            this.txtResposta.Name = "txtResposta";
+            this.txtResposta.Size = new System.Drawing.Size(253, 29);
+            this.txtResposta.TabIndex = 10;
             // 
-            // txtComprimento
+            // txtNumeros
             // 
-            this.txtComprimento.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComprimento.Location = new System.Drawing.Point(362, 49);
-            this.txtComprimento.Name = "txtComprimento";
-            this.txtComprimento.Size = new System.Drawing.Size(253, 29);
-            this.txtComprimento.TabIndex = 22;
+            this.txtNumeros.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumeros.Location = new System.Drawing.Point(362, 49);
+            this.txtNumeros.Name = "txtNumeros";
+            this.txtNumeros.Size = new System.Drawing.Size(253, 29);
+            this.txtNumeros.TabIndex = 9;
             // 
             // label2
             // 
@@ -102,9 +93,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(124, 141);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 24);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "Largura:";
+            this.label2.Size = new System.Drawing.Size(98, 24);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Negativo:";
             // 
             // label1
             // 
@@ -112,47 +103,25 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(124, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(141, 24);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Comprimento:";
+            this.label1.Size = new System.Drawing.Size(101, 24);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Numeros:";
             // 
-            // txtComodo
-            // 
-            this.txtComodo.Enabled = false;
-            this.txtComodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComodo.Location = new System.Drawing.Point(362, 210);
-            this.txtComodo.Name = "txtComodo";
-            this.txtComodo.Size = new System.Drawing.Size(253, 29);
-            this.txtComodo.TabIndex = 28;
-            // 
-            // lblComodo
-            // 
-            this.lblComodo.AutoSize = true;
-            this.lblComodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComodo.Location = new System.Drawing.Point(124, 215);
-            this.lblComodo.Name = "lblComodo";
-            this.lblComodo.Size = new System.Drawing.Size(95, 24);
-            this.lblComodo.TabIndex = 27;
-            this.lblComodo.Text = "Comodo:";
-            this.lblComodo.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // frmEx3BIm4
+            // frmEx5BBim4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtComodo);
-            this.Controls.Add(this.lblComodo);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.txtLargura);
-            this.Controls.Add(this.txtComprimento);
+            this.Controls.Add(this.txtResposta);
+            this.Controls.Add(this.txtNumeros);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.statusStrip1);
-            this.Name = "frmEx3BIm4";
-            this.Text = "Ex3BIm4";
+            this.Name = "frmEx5BBim4";
+            this.Text = "Ex5";
+            this.Load += new System.EventHandler(this.Ex5BBim4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,15 +129,12 @@
 
         #endregion
 
-        private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Button btnLimpar;
         private System.Windows.Forms.Button btnCalcular;
-        private System.Windows.Forms.TextBox txtLargura;
-        private System.Windows.Forms.TextBox txtComprimento;
+        private System.Windows.Forms.TextBox txtResposta;
+        private System.Windows.Forms.TextBox txtNumeros;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtComodo;
-        private System.Windows.Forms.Label lblComodo;
     }
 }

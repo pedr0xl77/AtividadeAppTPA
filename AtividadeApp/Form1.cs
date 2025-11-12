@@ -134,6 +134,34 @@ namespace AtividadeApp
             frmEx2Bim4 ex2 = new frmEx2Bim4();
             ex2.Show();
         }
+
+        private void ex4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx4Bim4 ex4 = new frmEx4Bim4();
+            ex4.Show();
+        }
+
+        private void ex5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx5BBim4 ex5 = new frmEx5BBim4();
+            ex5.Show();
+        }
+
+        private void ex6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx6Bim4 ex6 = new frmEx6Bim4();
+            ex6.Show();
+        }
+
+        private void eX3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmEx3BIm4 ex3 = new frmEx3BIm4();
+            ex3.Show();
+        }
     }
 
 
